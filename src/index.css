@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; font-size: 12px; font-family: Arial, Helvetica, sans-serif;}
+a {text-decoration: none;}
+input {border: 0; border-bottom: 1px solid #bdbdbd;}
+button {border: 0; cursor: pointer;}
+
+.header {max-width: 1260px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;padding: 20px 0;}
+.nav {display: flex;}
+    .nav input {width: 600px;}
+    .nav .login {margin: 0 50px;}
+
+.SimpleSlider {background-color: #000; color: #fff;} 
+    .SimpleSlider .slick-dots {bottom: 0;}
+    .SimpleSlider .slick-dots li button:before {color: #fff;opacity: 1;}
+    .slick-dots li.slick-active button:before {color: #f8475f;}
+    .slick-next {right: 0;}
+    .slick-prev {left: 0;} 
+    .slider { background-repeat: no-repeat; background-position-x: right;}
+        .slider div {max-width: 1200px; margin: 0 auto; display: flex; align-items: center; height: 420px; line-height: 40px;}
+        .slider div p {font-size: 20px;}
+        .slider div p strong {font-size: 30px;}
+
+.vitrineProdutos {max-width: 1200px; margin: 50px auto;}
+    .vitrineProdutos .slick-prev:before, .slick-next:before {color: #000;}
+    .vitrineProdutos .slick-prev:before, .slick-next:before {color: #000;}
+    .vitrineProdutos h1 {font-size: 30px;}
+    .vitrineProdutos .slick-initialized .slick-slide {text-align: center; line-height: 20px; color: #999;}
+    .vitrineProdutos .slick-initialized .slick-slide img {margin: 0 auto;}
+    .vitrineProdutos .slick-next {right: -25px;}
+    .vitrineProdutos .slick-prev {left: -25px;} 
+    .vitrineProdutos .price {font-size: 20px;} 
+
+.newsletter  {max-width: 1200px; margin: 50px auto; text-align: center;}
+    .newsletter h3 {font-size: 30px; margin: 0 0 20px 0;}
+    .newsletter button {background-color: #000; color: #fff; margin: 0 10px; padding: 15px; font-size: 16px;}
+    .newsletter input {border: 1px solid #000; margin: 10px; padding: 15px 0; width: 300px;}
+
+.footer {background-color: #000; color: #fff; border-bottom: 8px solid #999; padding: 20px 0; margin: 50px 0 0 0;} 
+    .footer .content {max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; line-height: 20px;}
+    .footer .content strong {font-size: 14px; font-weight: bold;}
+
+@media screen and (max-width: 480px){ 
+    .nav form {display: none;}
+    .slider div {color: #000; text-align: center; padding: 0 50px;}
+    .footer .content {display: block; text-align: center;}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+ 
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+ 
+}
+
+@media screen and (min-width: 1200px){
+ 
+}
